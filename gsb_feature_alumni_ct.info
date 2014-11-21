@@ -4,6 +4,7 @@ package = GSB
 version = 7.x-1.0-beta1
 project = gsb_feature_alumni_ct
 dependencies[] = email
+dependencies[] = email_contact
 dependencies[] = features
 dependencies[] = filefield_paths
 dependencies[] = gsb_feature_base_fields

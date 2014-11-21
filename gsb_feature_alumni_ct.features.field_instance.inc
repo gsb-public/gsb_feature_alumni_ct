@@ -115,11 +115,19 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'email',
+        'module' => 'email_contact',
         'settings' => array(
-          'conditions' => array(),
+          'conditions' => array(
+            0 => array(
+              'condition' => '',
+            ),
+          ),
+          'custom_path' => '',
+          'default_message' => '[current-user:name] sent a message using the contact form at [current-page:url].',
+          'link_text' => 'Email',
+          'redirection_to' => 'front',
         ),
-        'type' => 'email_default',
+        'type' => 'email_contact_link',
         'weight' => 5,
       ),
       'teaser' => array(
@@ -138,7 +146,7 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
       'allow_without_formatter' => 0,
       'custom_add_another' => '',
       'custom_remove' => '',
-      'form_title' => 'Contact person by email',
+      'form_title' => 'Email',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -256,13 +264,13 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'image',
+        'module' => 'gsb_field_formatter',
         'settings' => array(
           'conditions' => array(),
           'image_link' => '',
-          'image_style' => '',
+          'image_style' => '270x270',
         ),
-        'type' => 'image',
+        'type' => 'gsb_field_formatter_image',
         'weight' => 6,
       ),
       'teaser' => array(
