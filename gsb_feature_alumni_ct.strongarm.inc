@@ -161,5 +161,19 @@ function gsb_feature_alumni_ct_strongarm() {
   $strongarm->value = 0;
   $export['node_submitted_alumni'] = $strongarm;
 
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'workbench_access_node_type_alumni';
+  $strongarm->value = 0;
+  $export['workbench_access_node_type_alumni'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'workbench_moderation_default_state_alumni';
+  $strongarm->value = 'published';
+  $export['workbench_moderation_default_state_alumni'] = $strongarm;
+
   return $export;
 }
