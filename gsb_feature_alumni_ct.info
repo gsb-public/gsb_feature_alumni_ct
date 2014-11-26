@@ -39,5 +39,6 @@ features[variable][] = node_options_alumni
 features[variable][] = node_preview_alumni
 features[variable][] = node_submitted_alumni
 features_exclude[dependencies][strongarm] = strongarm
+features[variable][] = pathauto_node_alumni_pattern
 features[variable][] = workbench_access_node_type_alumni
 features[variable][] = workbench_moderation_default_state_alumni
