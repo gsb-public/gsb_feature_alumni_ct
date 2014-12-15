@@ -220,7 +220,7 @@ function gsb_feature_alumni_ct_ds_field_settings_info() {
   $ds_fieldsetting->view_mode = 'people_fpp';
   $ds_fieldsetting->settings = array(
     'title' => array(
-      'weight' => '0',
+      'weight' => '2',
       'label' => 'hidden',
       'format' => 'default',
       'formatter_settings' => array(
@@ -243,6 +243,12 @@ function gsb_feature_alumni_ct_ds_field_settings_info() {
       'formatter_settings' => array(
         'ft' => array(
           'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'div',
+          'ow-cl' => '',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
         ),
       ),
     ),
@@ -372,15 +378,15 @@ function gsb_feature_alumni_ct_ds_layout_settings_info() {
     'regions' => array(
       'ds_content' => array(
         0 => 'field_image_single_public',
-        1 => 'title',
-        2 => 'group_wrapper_name',
+        1 => 'group_wrapper_name_degree',
+        2 => 'title',
         3 => 'field_stanford_degrees_single',
       ),
     ),
     'fields' => array(
       'field_image_single_public' => 'ds_content',
+      'group_wrapper_name_degree' => 'ds_content',
       'title' => 'ds_content',
-      'group_wrapper_name' => 'ds_content',
       'field_stanford_degrees_single' => 'ds_content',
     ),
     'classes' => array(),
