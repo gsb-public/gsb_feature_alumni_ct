@@ -28,6 +28,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 6,
       ),
+      'people_fpp' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 20,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -126,6 +132,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
         'type' => 'email_contact_link',
         'weight' => 2,
       ),
+      'people_fpp' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 15,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -175,6 +187,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
         ),
         'type' => 'text_default',
         'weight' => 11,
+      ),
+      'people_fpp' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 2,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -269,6 +287,17 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
         'type' => 'gsb_field_formatter_image',
         'weight' => 1,
       ),
+      'people_fpp' => array(
+        'label' => 'hidden',
+        'module' => 'gsb_field_formatter',
+        'settings' => array(
+          'conditions' => array(),
+          'image_link' => '',
+          'image_style' => '170x170',
+        ),
+        'type' => 'gsb_field_formatter_image',
+        'weight' => 0,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -345,6 +374,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
         ),
         'type' => 'text_default',
         'weight' => 13,
+      ),
+      'people_fpp' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 4,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -438,6 +473,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
         'type' => 'link_default',
         'weight' => 3,
       ),
+      'people_fpp' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 16,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -508,6 +549,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
         'type' => 'link_default',
         'weight' => 4,
       ),
+      'people_fpp' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 17,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -577,6 +624,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
         ),
         'type' => 'text_default',
         'weight' => 5,
+      ),
+      'people_fpp' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 19,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -670,6 +723,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 12,
       ),
+      'people_fpp' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 3,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -761,6 +820,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
         ),
         'type' => 'text_default',
         'weight' => 10,
+      ),
+      'people_fpp' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 1,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -854,6 +919,15 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 4,
       ),
+      'people_fpp' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_default',
+        'weight' => 1,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -946,6 +1020,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 14,
       ),
+      'people_fpp' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 5,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -1037,6 +1117,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
         ),
         'type' => 'text_default',
         'weight' => 4,
+      ),
+      'people_fpp' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 18,
       ),
       'teaser' => array(
         'label' => 'above',

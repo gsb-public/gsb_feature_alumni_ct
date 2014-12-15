@@ -86,7 +86,7 @@ function gsb_feature_alumni_ct_strongarm() {
         'custom_settings' => FALSE,
       ),
       'people_fpp' => array(
-        'custom_settings' => FALSE,
+        'custom_settings' => TRUE,
       ),
       'phd_job_market_candidate' => array(
         'custom_settings' => FALSE,
