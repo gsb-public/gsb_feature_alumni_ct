@@ -100,6 +100,15 @@ function gsb_feature_alumni_ct_strongarm() {
       'revision' => array(
         'custom_settings' => FALSE,
       ),
+      'alumni_name' => array(
+        'custom_settings' => TRUE,
+      ),
+      'alumni_reunion_agenda_list' => array(
+        'custom_settings' => FALSE,
+      ),
+      'alumni_featured_content' => array(
+        'custom_settings' => FALSE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(

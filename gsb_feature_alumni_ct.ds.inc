@@ -12,6 +12,27 @@ function gsb_feature_alumni_ct_ds_field_settings_info() {
 
   $ds_fieldsetting = new stdClass();
   $ds_fieldsetting->api_version = 1;
+  $ds_fieldsetting->id = 'node|alumni|alumni_name';
+  $ds_fieldsetting->entity_type = 'node';
+  $ds_fieldsetting->bundle = 'alumni';
+  $ds_fieldsetting->view_mode = 'alumni_name';
+  $ds_fieldsetting->settings = array(
+    'alumni_name_degree_linked' => array(
+      'weight' => '0',
+      'label' => 'hidden',
+      'format' => 'default',
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+        ),
+        'conditions' => array(),
+      ),
+    ),
+  );
+  $export['node|alumni|alumni_name'] = $ds_fieldsetting;
+
+  $ds_fieldsetting = new stdClass();
+  $ds_fieldsetting->api_version = 1;
   $ds_fieldsetting->id = 'node|alumni|default';
   $ds_fieldsetting->entity_type = 'node';
   $ds_fieldsetting->bundle = 'alumni';
@@ -306,6 +327,34 @@ function gsb_feature_alumni_ct_ds_layout_settings_info() {
 
   $ds_layout = new stdClass();
   $ds_layout->api_version = 1;
+  $ds_layout->id = 'node|alumni|alumni_name';
+  $ds_layout->entity_type = 'node';
+  $ds_layout->bundle = 'alumni';
+  $ds_layout->view_mode = 'alumni_name';
+  $ds_layout->layout = 'ds_1col';
+  $ds_layout->settings = array(
+    'regions' => array(
+      'ds_content' => array(
+        0 => 'alumni_name_degree_linked',
+      ),
+    ),
+    'fields' => array(
+      'alumni_name_degree_linked' => 'ds_content',
+    ),
+    'classes' => array(),
+    'wrappers' => array(
+      'ds_content' => 'div',
+    ),
+    'layout_wrapper' => 'div',
+    'layout_attributes' => '',
+    'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
+  );
+  $export['node|alumni|alumni_name'] = $ds_layout;
+
+  $ds_layout = new stdClass();
+  $ds_layout->api_version = 1;
   $ds_layout->id = 'node|alumni|default';
   $ds_layout->entity_type = 'node';
   $ds_layout->bundle = 'alumni';
@@ -400,6 +449,24 @@ function gsb_feature_alumni_ct_ds_layout_settings_info() {
     'layout_link_custom' => '',
   );
   $export['node|alumni|people_fpp'] = $ds_layout;
+
+  return $export;
+}
+
+/**
+ * Implements hook_ds_view_modes_info().
+ */
+function gsb_feature_alumni_ct_ds_view_modes_info() {
+  $export = array();
+
+  $ds_view_mode = new stdClass();
+  $ds_view_mode->api_version = 1;
+  $ds_view_mode->view_mode = 'alumni_name';
+  $ds_view_mode->label = 'Alumni name';
+  $ds_view_mode->entities = array(
+    'node' => 'node',
+  );
+  $export['alumni_name'] = $ds_view_mode;
 
   return $export;
 }

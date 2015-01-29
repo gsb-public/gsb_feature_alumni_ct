@@ -19,6 +19,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'alumni_name' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 15,
+      ),
       'default' => array(
         'label' => 'hidden',
         'module' => 'text',
@@ -119,6 +125,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'alumni_name' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 9,
+      ),
       'default' => array(
         'label' => 'hidden',
         'module' => 'email_contact',
@@ -179,6 +191,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'alumni_name' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 17,
+      ),
       'default' => array(
         'label' => 'hidden',
         'module' => 'text',
@@ -276,6 +294,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'alumni_name' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 8,
+      ),
       'default' => array(
         'label' => 'hidden',
         'module' => 'gsb_field_formatter',
@@ -366,6 +390,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'alumni_name' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 19,
+      ),
       'default' => array(
         'label' => 'hidden',
         'module' => 'text',
@@ -464,6 +494,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'alumni_name' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 10,
+      ),
       'default' => array(
         'label' => 'hidden',
         'module' => 'link',
@@ -540,6 +576,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'alumni_name' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 13,
+      ),
       'default' => array(
         'label' => 'hidden',
         'module' => 'link',
@@ -616,6 +658,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'alumni_name' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 14,
+      ),
       'default' => array(
         'label' => 'hidden',
         'module' => 'text',
@@ -714,6 +762,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'alumni_name' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 18,
+      ),
       'default' => array(
         'label' => 'hidden',
         'module' => 'text',
@@ -812,6 +866,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'alumni_name' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 16,
+      ),
       'default' => array(
         'label' => 'hidden',
         'module' => 'text',
@@ -910,6 +970,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'alumni_name' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 11,
+      ),
       'default' => array(
         'label' => 'hidden',
         'module' => 'text',
@@ -1011,6 +1077,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'alumni_name' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 20,
+      ),
       'default' => array(
         'label' => 'hidden',
         'module' => 'text',
@@ -1109,6 +1181,12 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'alumni_name' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 12,
+      ),
       'default' => array(
         'label' => 'hidden',
         'module' => 'text',
