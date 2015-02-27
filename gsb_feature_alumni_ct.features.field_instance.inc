@@ -528,6 +528,7 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'label' => 'Directory Link',
     'required' => 0,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_class' => 0,
@@ -610,6 +611,7 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'label' => 'External Links',
     'required' => 0,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_class' => 0,

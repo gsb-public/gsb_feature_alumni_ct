@@ -309,8 +309,8 @@ function gsb_feature_alumni_ct_ds_custom_fields_info() {
   $ds_field->ui_limit = 'alumni|default';
   $ds_field->properties = array(
     'code' => array(
-      'value' => '[node:field_salutation] [node:field_first_name] [node:field_middle_name] [node:field_last_name] [node:field_suffix_name]<span class="field-degree">[node:field_stanford_degrees_single]</span>',
-      'format' => 'full_html',
+      'value' => '[node:title]<span class="field-degree">[node:field_stanford_degrees_single]</span>',
+      'format' => 'gsb_html_text',
     ),
     'use_token' => 1,
   );
