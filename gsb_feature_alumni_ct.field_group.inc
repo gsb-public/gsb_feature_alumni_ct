@@ -82,7 +82,7 @@ function gsb_feature_alumni_ct_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Name and degree wrapper',
-    'weight' => '1',
+    'weight' => '2',
     'children' => array(
       0 => 'field_stanford_degrees_single',
       1 => 'title',
