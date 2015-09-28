@@ -30,7 +30,8 @@ function gsb_feature_alumni_ct_field_group_info() {
     'format_settings' => array(
       'label' => 'Name and degree',
       'instance_settings' => array(
-        'classes' => '',
+        'id' => '',
+        'classes' => 'group-name-and-degree field-group-div field-group-format group_name_and_degree',
         'description' => '',
         'show_label' => '0',
         'label_element' => 'h3',
@@ -63,7 +64,7 @@ function gsb_feature_alumni_ct_field_group_info() {
     'format_settings' => array(
       'label' => 'Contact Info',
       'instance_settings' => array(
-        'classes' => '',
+        'classes' => 'group-wrapper-information field-group-fieldset field-group-format',
         'description' => '',
       ),
       'formatter' => 'collapsed',
@@ -126,7 +127,8 @@ function gsb_feature_alumni_ct_field_group_info() {
     'format_settings' => array(
       'label' => 'Name wrapper',
       'instance_settings' => array(
-        'classes' => '',
+        'id' => '',
+        'classes' => 'group-wrapper-name field-group-div field-group-format',
         'description' => '',
         'show_label' => '0',
         'label_element' => 'h3',

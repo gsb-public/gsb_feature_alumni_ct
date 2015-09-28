@@ -149,6 +149,7 @@ function gsb_feature_alumni_ct_ds_field_settings_info() {
           'fi-at' => '',
           'fi-def-at' => FALSE,
           'fi-odd-even' => FALSE,
+          'fi-first-last' => FALSE,
         ),
       ),
     ),
@@ -397,6 +398,7 @@ function gsb_feature_alumni_ct_ds_layout_settings_info() {
     'layout_attributes_merge' => 1,
     'layout_link_attribute' => '',
     'layout_link_custom' => '',
+    'layout_disable_css' => 0,
   );
   $export['node|alumni|default'] = $ds_layout;
 
