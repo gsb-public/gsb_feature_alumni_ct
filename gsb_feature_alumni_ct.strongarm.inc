@@ -109,24 +109,6 @@ function gsb_feature_alumni_ct_strongarm() {
       'alumni_featured_content' => array(
         'custom_settings' => FALSE,
       ),
-      'act_project_by_criteria' => array(
-        'custom_settings' => FALSE,
-      ),
-      'act_project_listing' => array(
-        'custom_settings' => FALSE,
-      ),
-      'compact' => array(
-        'custom_settings' => FALSE,
-      ),
-      'expanded' => array(
-        'custom_settings' => FALSE,
-      ),
-      'event_contacts' => array(
-        'custom_settings' => FALSE,
-      ),
-      'main_list' => array(
-        'custom_settings' => FALSE,
-      ),
     ),
     'extra_fields' => array(
       'form' => array(
@@ -208,6 +190,16 @@ function gsb_feature_alumni_ct_strongarm() {
   $strongarm->name = 'workbench_moderation_default_state_alumni';
   $strongarm->value = 'draft';
   $export['workbench_moderation_default_state_alumni'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'xmlsitemap_settings_node_alumni';
+  $strongarm->value = array(
+    'status' => '1',
+    'priority' => '0.5',
+  );
+  $export['xmlsitemap_settings_node_alumni'] = $strongarm;
 
   return $export;
 }

@@ -8,7 +8,7 @@
  * Implements hook_field_group_info().
  */
 function gsb_feature_alumni_ct_field_group_info() {
-  $export = array();
+  $field_groups = array();
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -41,7 +41,7 @@ function gsb_feature_alumni_ct_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $export['group_name_and_degree|node|alumni|default'] = $field_group;
+  $field_groups['group_name_and_degree|node|alumni|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -70,7 +70,7 @@ function gsb_feature_alumni_ct_field_group_info() {
       'formatter' => 'collapsed',
     ),
   );
-  $export['group_wrapper_information|node|alumni|default'] = $field_group;
+  $field_groups['group_wrapper_information|node|alumni|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -102,7 +102,7 @@ function gsb_feature_alumni_ct_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $export['group_wrapper_name_degree|node|alumni|people_fpp'] = $field_group;
+  $field_groups['group_wrapper_name_degree|node|alumni|people_fpp'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -138,7 +138,14 @@ function gsb_feature_alumni_ct_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $export['group_wrapper_name|node|alumni|default'] = $field_group;
+  $field_groups['group_wrapper_name|node|alumni|default'] = $field_group;
 
-  return $export;
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('Contact Info');
+  t('Name and degree');
+  t('Name and degree wrapper');
+  t('Name wrapper');
+
+  return $field_groups;
 }

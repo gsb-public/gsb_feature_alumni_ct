@@ -57,4 +57,5 @@ features[variable][] = node_submitted_alumni
 features[variable][] = pathauto_node_alumni_pattern
 features[variable][] = workbench_access_node_type_alumni
 features[variable][] = workbench_moderation_default_state_alumni
+features[variable][] = xmlsitemap_settings_node_alumni
 features_exclude[dependencies][strongarm] = strongarm

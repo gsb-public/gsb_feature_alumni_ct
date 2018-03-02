@@ -10,7 +10,7 @@
 function gsb_feature_alumni_ct_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-alumni-field_body'
+  // Exported field_instance: 'node-alumni-field_body'.
   $field_instances['node-alumni-field_body'] = array(
     'bundle' => 'alumni',
     'custom_add_another' => '',
@@ -116,7 +116,7 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-alumni-field_email'
+  // Exported field_instance: 'node-alumni-field_email'.
   $field_instances['node-alumni-field_email'] = array(
     'bundle' => 'alumni',
     'custom_add_another' => '',
@@ -182,7 +182,7 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-alumni-field_first_name'
+  // Exported field_instance: 'node-alumni-field_first_name'.
   $field_instances['node-alumni-field_first_name'] = array(
     'bundle' => 'alumni',
     'custom_add_another' => '',
@@ -286,7 +286,7 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-alumni-field_image_single_public'
+  // Exported field_instance: 'node-alumni-field_image_single_public'.
   $field_instances['node-alumni-field_image_single_public'] = array(
     'bundle' => 'alumni',
     'custom_add_another' => '',
@@ -380,7 +380,7 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-alumni-field_last_name'
+  // Exported field_instance: 'node-alumni-field_last_name'.
   $field_instances['node-alumni-field_last_name'] = array(
     'bundle' => 'alumni',
     'custom_add_another' => '',
@@ -484,7 +484,7 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-alumni-field_link_single'
+  // Exported field_instance: 'node-alumni-field_link_single'.
   $field_instances['node-alumni-field_link_single'] = array(
     'bundle' => 'alumni',
     'custom_add_another' => '',
@@ -567,7 +567,7 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-alumni-field_link_unlimited'
+  // Exported field_instance: 'node-alumni-field_link_unlimited'.
   $field_instances['node-alumni-field_link_unlimited'] = array(
     'bundle' => 'alumni',
     'custom_add_another' => '',
@@ -650,7 +650,7 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-alumni-field_location'
+  // Exported field_instance: 'node-alumni-field_location'.
   $field_instances['node-alumni-field_location'] = array(
     'bundle' => 'alumni',
     'custom_add_another' => '',
@@ -754,7 +754,7 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-alumni-field_middle_name'
+  // Exported field_instance: 'node-alumni-field_middle_name'.
   $field_instances['node-alumni-field_middle_name'] = array(
     'bundle' => 'alumni',
     'custom_add_another' => '',
@@ -858,7 +858,7 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-alumni-field_salutation'
+  // Exported field_instance: 'node-alumni-field_salutation'.
   $field_instances['node-alumni-field_salutation'] = array(
     'bundle' => 'alumni',
     'custom_add_another' => '',
@@ -962,7 +962,7 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-alumni-field_stanford_degrees_single'
+  // Exported field_instance: 'node-alumni-field_stanford_degrees_single'.
   $field_instances['node-alumni-field_stanford_degrees_single'] = array(
     'bundle' => 'alumni',
     'custom_add_another' => '',
@@ -1066,7 +1066,7 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-alumni-field_suffix_name'
+  // Exported field_instance: 'node-alumni-field_suffix_name'.
   $field_instances['node-alumni-field_suffix_name'] = array(
     'bundle' => 'alumni',
     'custom_add_another' => '',
@@ -1170,7 +1170,7 @@ function gsb_feature_alumni_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-alumni-field_title_position_single'
+  // Exported field_instance: 'node-alumni-field_title_position_single'.
   $field_instances['node-alumni-field_title_position_single'] = array(
     'bundle' => 'alumni',
     'custom_add_another' => '',
